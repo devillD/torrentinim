@@ -5,7 +5,7 @@ ENV LC_ALL C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
-  && apt-get install -y \
+  && apt-get -qq install -y \
   bash \
   ca-certificates \
   dnsutils \
