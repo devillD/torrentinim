@@ -28,7 +28,7 @@ COPY . .
 RUN make deps
 RUN make build
 
-EXPOSE 50123
+EXPOSE 443
 
 ENTRYPOINT ["/tini", "--"]
 
